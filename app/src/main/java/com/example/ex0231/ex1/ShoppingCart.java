@@ -1,7 +1,7 @@
 package com.example.ex0231.ex1;
 
 public class ShoppingCart {
-    Product[] products = new Product[10];
+    private Product[] products = new Product[10];
 
     public ShoppingCart(){
         products[1] = new Book("wow - chapter 1",99.9,"Very interesting wow 1","David");

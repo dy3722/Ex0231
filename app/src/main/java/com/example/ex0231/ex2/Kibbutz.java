@@ -1,8 +1,8 @@
 package com.example.ex0231.ex2;
 
 public class Kibbutz {
-    int mone;
-    Vehicles[] vehic;
+    private int mone;
+    private Vehicles[] vehic;
 
     public Kibbutz() {
         vehic = new Vehicles[500];

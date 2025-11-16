@@ -22,9 +22,9 @@ public class Regular extends Vehicles{ //1.4
         return super.exhaust() * 1.2;
     }
 
-    public void noise() //7
+    public int noise() //7
     {
-        System.out.println(80);
+        return 80;
     }
 
     public void hitchhikers() //8
